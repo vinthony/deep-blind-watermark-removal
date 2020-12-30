@@ -13,16 +13,18 @@ This repo contains the code and results of the AAAI 2021 paper:
 <i>The overview of the proposed two-stage framework. Firstly, we propose a multi-task network, SplitNet, for watermark detection, removal  and recovery. Then, we propose the RefineNet to smooth the learned region with the predicted mask and the recovered background from the previous stage. As a consquence, our network can be trained in an end-to-end fashion without any manual intervention. Note that, for clearness, we do not show any skip-connections between all the encoders and decoders.</i>
 <hr>
 
-> The whole project will be released at the end of 2020 (almost).
+> The whole project will be released at the January of 2021 (almost).
 
 
 ### Datasets
 
-> The synthesized datasets are still reorganizeing and uploading, it will be released soon.
+Our synthesized 4 datasets are still reorganizing and uploading, it will be released soon.
+
+
 
 ### Pre-trained Models
 
-> The Pre-trained Models are still reorganizeing and uploading, it will be released soon.
+> The Pre-trained Models are still reorganizing and uploading, it will be released soon.
 
 
 ### Demos
