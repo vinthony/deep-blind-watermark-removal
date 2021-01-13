@@ -207,3 +207,33 @@ def show_image_tensor(tensor):
         re.append(torch.from_numpy(inp).unsqueeze(0))
     return torch.cat(re,0)
 
+
+def get_jet():
+    colormap_int = np.zeros((256, 3), np.uint8)
+ 
+    for i in range(0, 256, 1):
+        colormap_int[i, 0] = np.int_(np.round(cm.jet(i)[0] * 255.0))
+        colormap_int[i, 1] = np.int_(np.round(cm.jet(i)[1] * 255.0))
+        colormap_int[i, 2] = np.int_(np.round(cm.jet(i)[2] * 255.0))
+
+    return colormap_int
+
+def clamp(num, min_value, max_value):
+    return max(min(num, max_value), min_value)
+
+def gray2color(gray_array, color_map):
+    
+    rows, cols = gray_array.shape
+    color_array = np.zeros((rows, cols, 3), np.uint8)
+ 
+    for i in range(0, rows):
+        for j in range(0, cols):
+#             log(256,2) = 8 , log(1,2) = 0 * 8
+            color_array[i, j] = color_map[clamp(int(abs(gray_array[i, j])*10),0,255)]
+    
+    return color_array
+
+class objectview(object):
+    def __init__(self, *args, **kwargs):
+        d = dict(*args, **kwargs)
+        self.__dict__ = d

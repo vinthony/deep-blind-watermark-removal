@@ -4,7 +4,7 @@ This repo contains the code and results of the AAAI 2021 paper:
 [Xiaodong Cun](http://vinthony.github.io), [Chi-Man Pun<sup>*</sup>](http://www.cis.umac.mo/~cmpun/) <br>
 [University of Macau](http://um.edu.mo/)
 
-[Datasets](#Resources) | [Models](#Resources) | [Paper](https://arxiv.org/abs/2012.07007)  | 🔥Online Demo!(Google CoLab)
+[Datasets](#Resources) | [Models](#Resources) | [Paper](https://arxiv.org/abs/2012.07007)  | [🔥Online Demo!](https://colab.research.google.com/drive/1pYY7byBjM-7aFIWk8HcF9nK_s6pqGwww?usp=sharing)(Google CoLab)
 
 <hr>
 
@@ -18,18 +18,23 @@ This repo contains the code and results of the AAAI 2021 paper:
 
 ### Datasets
 
-Our synthesized 4 datasets are still reorganizing and uploading, it will be released soon.
+We synthesized four different dataset for training and testing, you can downlaod the dataset via [One Drive](https://uofmacau-my.sharepoint.com/:f:/g/personal/yb87432_umac_mo/Ek27dEFECGJKqYlZ1vxf7QMBTp3LuEAo-24Sfq_6vGxgaw).
 
+![image](https://user-images.githubusercontent.com/4397546/104273158-74413900-54d9-11eb-95fa-c6bee94de0ea.png)
 
 
 ### Pre-trained Models
 
-> The Pre-trained Models are still reorganizing and uploading, it will be released soon.
+* [27kpng_model_best.pth.tar (google drive)](https://drive.google.com/file/d/1KpSJ6385CHN6WlAINqB3CYrJdleQTJBc/view?usp=sharing)
+
+> Other Pre-trained Models are still reorganizing and uploading, it will be released soon.
 
 
 ### Demos
 
-> TBD
+An easy-to-use online demo can be founded in [google colab](https://colab.research.google.com/drive/1pYY7byBjM-7aFIWk8HcF9nK_s6pqGwww?usp=sharing).
+
+The local demo will be released soon.
 
 ### Pre-requirements
 
