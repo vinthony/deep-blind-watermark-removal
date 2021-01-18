@@ -12,7 +12,7 @@ from scripts.utils.model_init import *
 from scripts.models.rasc import *
 from scripts.models.unet import UnetGenerator,MinimalUnetV2
 from scripts.models.vmu import UnetVM
-from scripts.models.vmu2 import UnetVMS2AMv4
+from scripts.models.sa_resunet import UnetVMS2AMv4
 
 
 # our method
