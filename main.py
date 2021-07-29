@@ -13,9 +13,7 @@ from options import Options
 
 def main(args):
     
-    if 'ISTD' in args.base_dir:
-        dataset_func = datasets.SR
-    elif 'HFlickr' or 'HCOCO' or 'Hday2night' or 'HAdobe5k' in args.base_dir:
+    if 'HFlickr' or 'HCOCO' or 'Hday2night' or 'HAdobe5k' in args.base_dir:
         dataset_func = datasets.BIH
     else:
         dataset_func = datasets.COCO
