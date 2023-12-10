@@ -10,15 +10,15 @@ This repo contains the code and results of the AAAI 2021 paper:
 
 <img width="726" alt="nn" src="https://user-images.githubusercontent.com/4397546/101241905-37915d80-3735-11eb-9fb9-2e1e46d63f15.png">
 
-<i>The overview of the proposed two-stage framework. Firstly, we propose a multi-task network, SplitNet, for watermark detection, removal  and recovery. Then, we propose the RefineNet to smooth the learned region with the predicted mask and the recovered background from the previous stage. As a consquence, our network can be trained in an end-to-end fashion without any manual intervention. Note that, for clearness, we do not show any skip-connections between all the encoders and decoders.</i>
+<i>The overview of the proposed two-stage framework. Firstly, we propose a multi-task network, SplitNet, for watermark detection, removal,  and recovery. Then, we propose the RefineNet to smooth the learned region with the predicted mask and the recovered background from the previous stage. As a consequence, our network can be trained in an end-to-end fashion without any manual intervention. Note that, for clarity, we do not show any skip-connections between all the encoders and decoders.</i>
 <hr>
 
-> The whole project will be released at the January of 2021 (almost).
+> The whole project will be released in the January of 2021 (almost).
 
 
 ### Datasets
 
-We synthesized four different dataset for training and testing, you can downlaod the dataset via [One Drive](https://uofmacau-my.sharepoint.com/:f:/g/personal/yb87432_umac_mo/Ek27dEFECGJKqYlZ1vxf7QMBTp3LuEAo-24Sfq_6vGxgaw).
+We synthesized four different datasets for training and testing, you can download the dataset via [huggingface](https://huggingface.co/datasets/vinthony/watermark-removal-logo/tree/main).
 
 ![image](https://user-images.githubusercontent.com/4397546/104273158-74413900-54d9-11eb-95fa-c6bee94de0ea.png)
 
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 ### Train
 
-Besides training our methods, here, we also give an example of how to train the [s2am](https://github.com/vinthony/s2am) under our farmewrok. More details can be founded in the shell scripts.
+Besides training our methods, here, we also give an example of how to train the [s2am](https://github.com/vinthony/s2am) under our framework. More details can be found in the shell scripts.
 
 
 ```
